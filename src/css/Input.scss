@@ -1,0 +1,14 @@
+.active-code-input {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  text-align: center;
+  appearance: none;
+  color: #333333;
+  font-size: 14px;
+  &:focus {
+    border-bottom: 1px solid lightblue;
+  }
+}
