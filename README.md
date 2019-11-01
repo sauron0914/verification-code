@@ -52,21 +52,21 @@ Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/@suolun/ver
 For building style, you may need to import the css or scss file:
 ```js
 // scss
-import 'node_modules/@suolun/verification-code/lib/css/index.scss'
+import '@suolun/verification-code/lib/css/index.scss'
 
 // css
-import 'node_modules/@suolun/verification-code/lib/css/index.css'
+import '@suolun/verification-code/lib/css/index.css'
 ```
 Or
 ```scss
 // scss
-@import 'node_modules/@suolun/verification-code/lib/css/index.scss'
+@import '@suolun/verification-code/lib/css/index.scss'
 
 // css
-@import 'node_modules/@suolun/verification-code/lib/css/index.css'
+@import '@suolun/verification-code/lib/css/index.css'
 ```
 
-Or, you can build your custom style by copying, editing and importing `node_modules/@suolun/verification-code/lib/css/index.scss`
+Or, you can build your custom style by copying, editing and importing `@suolun/verification-code/lib/css/index.scss`
 
 ## QA
 

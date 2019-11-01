@@ -52,21 +52,21 @@ import * as VerificationCode from '@suolun/verification-code'
 你可能需要主动引入样式文件来应用组件的样式：
 ```js
 // scss
-import 'node_modules/@suolun/verification-code/lib/css/index.scss'
+import '@suolun/verification-code/lib/css/index.scss'
 
 // css
-import 'node_modules/@suolun/verification-code/lib/css/index.css'
+import '@suolun/verification-code/lib/css/index.css'
 ```
 Or
 ```scss
 // scss
-@import 'node_modules/@suolun/verification-code/lib/css/index.scss'
+@import '@suolun/verification-code/lib/css/index.scss'
 
 // css
-@import 'node_modules/@suolun/verification-code/lib/css/index.css'
+@import '@suolun/verification-code/lib/css/index.css'
 ```
 
-你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `node_modules/@suolun/verification-code/lib/css/index.scss` 得到
+你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `@suolun/verification-code/lib/css/index.scss` 得到
 
 ## QA
 
