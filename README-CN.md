@@ -1,6 +1,6 @@
-# sauron-verification-code
-[![NPM Version](http://img.shields.io/npm/v/sauron-verification-code.svg?style=flat-square)](https://www.npmjs.com/package/sauron-verification-code)
-[![Download Month](http://img.shields.io/npm/dm/sauron-verification-code.svg?style=flat-square)](https://www.npmjs.com/package/sauron-verification-code)
+# @suolun/verification-code
+[![NPM Version](http://img.shields.io/npm/v/@suolun/verification-code.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/verification-code)
+[![Download Month](http://img.shields.io/npm/dm/@suolun/verification-code.svg?style=flat-square)](https://www.npmjs.com/package/@suolun/verification-code)
 ![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
@@ -28,7 +28,7 @@ A description for the module
 
 ## Installation
 ```bash
-npm i -S sauron-verification-code
+npm i -S @suolun/verification-code
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
@@ -39,34 +39,34 @@ npm i -S sauron-verification-code
 
 ## Usage
 ```js
-import * as VerificationCode from 'sauron-verification-code'
+import * as VerificationCode from '@suolun/verification-code'
 ```
 
-在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/sauron-verification-code/lib/umd/) 看到你能用到的所有 js 脚本
+在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/@suolun/verification-code/lib/umd/) 看到你能用到的所有 js 脚本
 ```html
 <-- 然后使用你需要的 -->
-<script src="https://unpkg.com/sauron-verification-code/lib/umd/<--module-->.js"></script>
+<script src="https://unpkg.com/@suolun/verification-code/lib/umd/<--module-->.js"></script>
 ```
 
 ## style
 你可能需要主动引入样式文件来应用组件的样式：
 ```js
 // scss
-import 'node_modules/sauron-verification-code/lib/css/index.scss'
+import 'node_modules/@suolun/verification-code/lib/css/index.scss'
 
 // css
-import 'node_modules/sauron-verification-code/lib/css/index.css'
+import 'node_modules/@suolun/verification-code/lib/css/index.css'
 ```
 Or
 ```scss
 // scss
-@import 'node_modules/sauron-verification-code/lib/css/index.scss'
+@import 'node_modules/@suolun/verification-code/lib/css/index.scss'
 
 // css
-@import 'node_modules/sauron-verification-code/lib/css/index.css'
+@import 'node_modules/@suolun/verification-code/lib/css/index.css'
 ```
 
-你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `node_modules/sauron-verification-code/lib/css/index.scss` 得到
+你也可以通过引入自定义的组件样式文件来自定义样式，文件可以通过复制并修改 `node_modules/@suolun/verification-code/lib/css/index.scss` 得到
 
 ## QA
 

@@ -1,5 +1,5 @@
 {
-  "name": "sauron-verification-code",
+  "name": "@suolun/verification-code",
   "version": "1.0.1",
   "description": "A description for the module",
   "main": "./lib/umd/index.js",
