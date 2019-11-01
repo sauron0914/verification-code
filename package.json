@@ -1,6 +1,6 @@
 {
-  "name": "@sauron/verification-code",
-  "version": "1.0.0",
+  "name": "sauron-verification-code",
+  "version": "1.0.1",
   "description": "A description for the module",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
