@@ -2,7 +2,7 @@ import React from 'react'
 
 interface VerifationCodeProps {
   onGetVerifationCode: (value: string) => void
-  len: number
+  len?: number
   autoFocus?: boolean
 }
 declare const VerifationCode: React.FC<VerifationCodeProps>

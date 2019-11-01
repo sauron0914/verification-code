@@ -4,7 +4,7 @@ import Input from './Input'
 
 export interface VerifationCodeProps {
   onGetVerifationCode: (value: string) => void
-  len: number
+  len?: number
   autoFocus?: boolean
 }
 

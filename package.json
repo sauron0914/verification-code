@@ -1,6 +1,6 @@
 {
   "name": "@suolun/verification-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A description for the module",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
@@ -23,7 +23,8 @@
     "url": "https://github.com/ZoomKing/verification-code.git"
   },
   "keywords": [
-    "verification", "code"
+    "verification",
+    "code"
   ],
   "author": "sauron",
   "license": "MIT",
