@@ -1,6 +1,6 @@
 {
   "name": "@suolun/verification-code",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A description for the module",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
