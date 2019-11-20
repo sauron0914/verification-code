@@ -4,6 +4,8 @@ interface VerifationCodeProps {
   onGetVerifationCode: (value: string) => void
   len?: number
   autoFocus?: boolean
+  type?: 'text' | 'number' | 'tel'
+  defaultValue?: string
 }
 declare const VerifationCode: React.FC<VerifationCodeProps>
 

@@ -24,14 +24,13 @@ const module = document.getElementById('module')
 const Comp = VerificationCode
 
 const App = () => {
-  const [activeCode, setActiveStoreInfo] = React.useState('1234')
 
   const onSetActiveCode = (value) => {
     console.log('VerificationCode', value)
   }
   return (
     <div>
-      <Comp onGetVerifationCode={onSetActiveCode} len={4} autoFocus={false}  />
+      <Comp onGetVerifationCode={onSetActiveCode} defaultValue='1234' len={4} autoFocus={false} type='tel' />
     </div>
   )
 }
